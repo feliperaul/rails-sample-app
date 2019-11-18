@@ -5,6 +5,10 @@ ruby '>= 2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
+
+# Necessário ser antes de todas as gemas que possam usar ENV variables.
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
