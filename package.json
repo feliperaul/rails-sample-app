@@ -1,5 +1,7 @@
 {
   "name": "rails-sample-app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.12.0"
+  }
 }
