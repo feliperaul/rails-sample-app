@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'sidekiq'
 
+gem 'whenever'
+
 group :development, :test do
   # Use Puma as the app server
   gem 'puma', '~> 3.11'
